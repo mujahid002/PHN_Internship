@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mujahid.css">
+</head>
+<body>
+    <form id="reservation-form">
+        <h2>Make a Reservation</h2>
+        
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+      
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" required>
+        
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="eg:Muja" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="eg:muja@gmail.com"required>
+        
+        <label for="phone">Phone number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="eg:+91-0123456789" required>
+        
+        <label for="guests">Number of guests:</label>
+        <input type="number" id="guests" name="guests" min="1" max="10" placeholder="0" required>
+      
+        <input type="submit" value="Submit">
+      </form>
+    <script src="mujahid.js"></script>
+</body>
+</html>
