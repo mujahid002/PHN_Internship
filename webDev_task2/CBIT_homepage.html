@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Engineering College Home Page</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+		
+		}
+		header {
+			background-image: linear-gradient(-225deg,#240432,#7918f2 48%,#18034e);
+			padding: 10px;
+			text-align: center;
+		}
+
+		nav {
+			background-image:linear-gradient(-225deg,#4d1d67,#7f3fbe 48%,#2b1f4a);
+			font-size: 20px;
+        padding: 10px;
+      }
+      nav ul {
+        list-style-type: none;
+		
+        margin: 10px;
+        /* padding: 0; */
+		padding-left: 80px;
+		padding-right: 80px;
+        display: flex;
+        justify-content: space-between;
+      }
+      nav li {
+        padding: 10px;
+      }
+      nav a {
+        color: #ccc4cb;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      nav a:hover {
+        color: #fff;
+        background-color: #f327d1;
+        padding: 10px;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+      }
+	  nav ul li a{
+		text-decoration:solid;
+	  }
+		section {
+			padding: 20px;
+			margin: 20px;
+			background-color: #cecaca;
+			box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+			border-radius: 5px;
+			text-align: center;
+		}
+		section:hover{
+			background-color: #df96cd;
+			transition: background-color 0.3s ease;
+		}
+		h2 {
+			font-size: 24px;
+			font-weight: normal;
+			margin-bottom: 20px;
+		}
+		ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+		li a{
+			margin: 10px;
+		}
+	.department li a {
+			display: block;
+			padding: 10px;
+			background-color: #0f0f0f;
+			color: #fff;
+			text-decoration: none;
+			border-radius: 5px;
+			transition: background-color 0.3s ease;
+		}
+		li a:hover {
+			background-color: #f706ef;
+			color: #f4f2f2; 
+		 }
+		 form {
+			display: flex;
+			flex-direction: column;
+			max-width: 500px;
+			margin: auto;
+		}
+		
+		label {
+			margin-top: 1rem;
+			font-weight: bold;
+		}
+		
+		input[type="text"],
+		input[type="email"],
+		textarea {
+			padding: 0.5rem;
+			margin-bottom: 1rem;
+			border-radius: 5px;
+			border: 1px solid #ccc;
+			transition: border-color 0.2s ease-in-out;
+		}
+		
+		input[type="text"]:focus,
+		input[type="email"]:focus,
+		textarea:focus {
+			border-color: #4d4d4d;
+		}
+		
+		input[type="submit"] {
+			background-color: #95128c;
+			border: none;
+			padding: 0.5rem 1rem;
+			font-weight: bold;
+			border-radius: 5px;
+			color: white;
+			cursor: pointer;
+			transition: background-color 0.2s ease-in-out;
+		}
+		
+		input[type="submit"]:hover {
+			background-color: #2e2d2d;
+		}
+		footer {
+			background-color: #81116e;
+			color: #fff;
+			padding: 20px;
+			padding: 1rem;
+			text-align: center;
+		}
+		img{
+			width: 50%;
+			height: 50%;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<img src="https://www.cbit.ac.in/wp-content/themes/CBIT/images/logo.png">
+	</header>
+	<nav>
+		<ul>
+			<li>
+				<a href="#about">About Us</a>
+			</li>
+			<li>
+				<a href="#department">Department</a>
+			</li>
+			<li>
+				<a href="#faculty">Faculty</a>
+			</li>
+			<li>
+				<a href="#research">Research</a>
+			</li>
+			<li>
+				<a href="#placement">Placement</a>
+			</li>
+			<li>
+				<a href="#contact">Contact Us</a>
+			</li>
+		</ul>
+	</nav>
+	<section class="about" id="about">
+		<h2>About Us</h2>
+		<p>Vision :  “To be the center of excellence in technical education and research”.</p>
+
+		<p>Mission : “To address the emerging needs through quality technical education and advanced research”.</p>
+	</section>
+	<section class="department" id="department">
+		<h2>Departments</h2>
+		<ul >
+			<li><a href="#">Computer Science Engineering</a></li>
+			<li><a href="#">Electronics & Communication Engineering</a></li>
+			<li><a href="#">Information Technology Engineering</a></li>
+			<li><a href="#">Electrical Engineering</a></li>
+			<li><a href="#">Mechanical Engineering</a></li>
+			<li><a href="#">Civil Engineering</a></li>
+			<li><a href="#">Chemical Engineering</a></li>
+			<li><a href="#">Production Engineering</a></li>
+		</ul>
+	</section>
+	<section class="faculty" id="faculty">
+		<h2>Faculty</h2>
+		<p>Our faculty members are highly qualified and experienced in their respective fields.</p>
+	</section>
+	<section class="research" id="research">
+		<h2>Research</h2>
+		<p>We encourage our students to participate in research activities and provide them with necessary resources.</p>
+	</section>
+	<section class="placement" id="placement">
+		<h2>Placement</h2>
+		<p>We have a dedicated placement cell that helps our students to get placed in top companies.</p>
+		<h3>
+			140+
+			Companies |
+			
+			1736
+			Placement Offers |
+
+			54L
+			Highest package |
+
+			83.68%
+			Of Placements</h3>
+	</section>
+	<section id="contact">
+		<h2>Contact Us</h2>
+		<form>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" required></textarea>
+			<input id="submit" type="submit" value="Submit">
+		</form>
+	</section>
+	<footer>
+		<p>&copy; 2023 Engineering College</p>
+	</footer>
+</body>
+</html>
