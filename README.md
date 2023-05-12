@@ -15,4 +15,8 @@ Task_3 : Responsive E-Commerence_homepage
 ![Screenshot (31)](https://github.com/mujahid002/PHN_Internship_Tasks/assets/109784578/db6abbea-8998-48fd-9bb1-51c2e1851f17)
 ![Screenshot (32)](https://github.com/mujahid002/PHN_Internship_Tasks/assets/109784578/62b42a06-00f5-4d66-8c73-543a9b6b5783)
 
+Task_4 : Responsive Community Landing_page
+![Screenshot 1](https://github.com/mujahid002/PHN_Internship_Tasks/assets/109784578/c3e315d9-6c80-43bc-9645-1d39ec2a3a59)
+![Screenshot 5](https://github.com/mujahid002/PHN_Internship_Tasks/assets/109784578/79bcbdb2-ac7b-498c-8a9f-89766802108a)
+
 
