@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PHN Community</title>
+<link rel="icon" href="https://www.phntechnology.com/assets/img/logo-nobg.png	" type="image/icon type">
+<!-- <link rel="stylesheet" href="communities.css"> -->
+</head>
+<body>
+	<style>
+		body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+    background: linear-gradient(-225deg,#b61dca,#12bead 48%,#24ac0c);
+	color: #fff;
+	padding: 20px;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav ul li {
+	padding: 8px 15px;
+	border-radius: 10px;
+	transition: 0.2s ease-in;
+}
+
+nav ul li a {
+	color: black;
+	font-size: 20px;
+	font-weight: 500;
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li:hover {
+	background-color: rgb(0, 0, 0);
+}
+
+nav ul li a:hover {
+	color: white;
+}
+
+
+.banner {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.banner h1 {
+	font-size: 3em;
+	margin-bottom: 10px;
+}
+
+.banner p {
+	font-size: 1.2em;
+	margin-bottom: 20px;
+}
+
+.banner button {
+	background-color: #ffffff;
+	text-align: center;
+	border: none;
+	padding: 5px;
+	font-size: 1.5em;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.banner .phn-logo{
+	height: 380px;
+	width: 500px;
+}
+.banner button a{
+	text-decoration: none;
+	color: black;
+}
+
+.featured-content{
+	background-color: lightcyan;
+	padding: 50px;
+}
+ .recent-updates {
+	background-color: lightgreen;
+	padding: 50px;
+ }
+ .upcoming-events {
+	background-color:lightyellow;
+	padding: 50px;
+}
+
+.featured-content h2, .recent-updates h2, .upcoming-events h2 {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.item {
+	width: 30%;
+	margin-bottom: 50px;
+}
+
+.item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    }
+    
+    .item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    }
+    
+    .item p {
+    margin-bottom: 20px;
+    }
+    
+    .item a {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    }
+    
+    footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    }
+    
+    footer p {
+    margin: 0;
+    padding: 0;
+    }
+    
+    @media (max-width: 768px) {
+    .content {
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    }   
+    .item {
+        width: 100%;
+    }
+
+/* Contact Page */
+
+.contact {
+    font-size: large;
+	padding: 100px;
+    justify-content: center;
+	background: lightblue;
+}
+
+.contact .content {
+    justify-content: center;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+.content .title {
+	width: 80%;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 50px;
+}
+
+.title {
+	margin-bottom: 30px;
+	margin-left: 80px;
+}
+
+.contactMenu {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.input2 {
+	margin-top: 10;
+}
+
+.label1 {
+	font-size: 30px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	font-weight: bolder;
+}
+
+.contactMenu .input1 input {
+	border-radius: 13px;
+	padding: 6px;
+}
+
+.input2 input {
+	border-color: rgb(252, 244, 244);
+	width: 500px;
+	height: 25px;
+}
+
+.button {
+	margin-top: 12px;
+	margin-left: 5px;
+	justify-content: center;
+	text-align: center;
+}
+
+.button button {
+	width: 162px;
+	height: 35px;
+	border-radius: 12px;
+	border-color: transparent;
+}
+
+.button button:hover {
+	background-color: #000000;
+	color: #fff;
+}
+
+button {
+	width: 162px;
+	height: 35px;
+	border-radius: 12px;
+	border-color: transparent;
+}
+
+button:hover {
+	background-color: #4f24bd;
+}
+
+.rightside1 {
+	display: flex;
+	flex-direction: column;
+	margin-left: 300px;
+}
+
+.title1 {
+	font-size: 18px;
+	margin-top: 8px;
+	margin-bottom: 5px;
+	font-weight: bolder;
+}
+
+.content1 {
+	width: 450px;
+	margin-top: 2px;
+	color: grey;
+}
+	</style>
+<header>
+	<nav>
+		<ul>
+			<li><a href="#Home">Home</a></li>
+			<li><a href="#FeaturedContent">Featured Content</a></li>
+			<li><a href="#Updates">Updates</a></li>
+			<li><a href="#Events">Events</a></li>
+			<li><a href="#About">About</a></li>
+		</ul>
+	</nav>
+	<div class="banner">
+		<img src=
+"https://www.phntechnology.com/assets/img/logo-nobg.png" class="phn-logo">
+</img>
+		<h1>Welcome to PHN Community</h1>
+		<p>Join our community and stay updated with the latest news and events!</p>
+		<button><a href="#JoinNow">Join Now</a>	</button>
+	</div>
+</header>
+<main>
+	<section class="featured-content" id="FeaturedContent">
+		<h2>Featured Content</h2>
+		<div class="content">
+			<div class="item">
+				<!-- <img src="featured-1.jpg" alt="Featured Content 1"> -->
+				<h3>Article Title 1</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel libero euismod, elementum orci et, vestibulum felis. Praesent ut convallis quam.</p>
+				<a href="#">Read More</a>
+			</div>
+			<div class="item">
+				<!-- <img src="featured-2.jpg" alt="Featured Content 2"> -->
+				<h3>Article Title 2</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel libero euismod, elementum orci et, vestibulum felis. Praesent ut convallis quam.</p>
+				<a href="#">Read More</a>
+			</div>
+			<div class="item">
+				<!-- <img src="featured-3.jpg" alt="Featured Content 3"> -->
+				<h3>Article Title 3</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel libero euismod, elementum orci et, vestibulum felis. Praesent ut convallis quam.</p>
+				<a href="#">Read More</a>
+			</div>
+		</div>
+	</section>
+	<section class="recent-updates" id="Updates">
+		<h2>Recent Updates</h2>
+		<div class="content">
+			<div class="item">
+				<h3>Update Title 1</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel libero euismod, elementum orci et, vestibulum felis. Praesent ut convallis quam.</p>
+				<a href="#">Read More</a>
+			</div>
+			<div class="item">
+				<h3>Update Title 2</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel libero euismod, elementum orci et, vestibulum felis. Praesent ut convallis quam.</p>
+				<a href="#">Read More</a>
+			</div>
+			<div class="item">
+				<h3>Update Title 3</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel
+					libero euismod, elementum orci et, vestibulum felis. Praesent ut convallis quam.</p>
+					<a href="#">Read More</a>
+					</div>
+			</div>
+			</section>
+				<section class="upcoming-events" id="Events">
+				<h2>Upcoming Events</h2>
+				<div class="content">
+					<div class="item">
+						<!-- <img src="event-1.jpg" alt="Upcoming Event 1"> -->
+						<h3>Event Title 1</h3>
+						<p>May 20, 2023 at 6:00 PM</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel libero euismod, elementum orci et, vestibulum felis. Praesent ut convallis quam.</p>
+						<a href="#">Learn More</a>
+					</div>
+					<div class="item">
+						<!-- <img src="event-2.jpg" alt="Upcoming Event 2"> -->
+						<h3>Event Title 2</h3>
+						<p>June 5, 2023 at 2:00 PM</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel libero euismod, elementum orci et, vestibulum felis. Praesent ut convallis quam.</p>
+						<a href="#">Learn More</a>
+					</div>
+					<div class="item">
+						<!-- <img src="event-3.jpg" alt="Upcoming Event 3"> -->
+						<h3>Event Title 3</h3>
+						<p>June 15, 2023 at 9:00 AM</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel libero euismod, elementum orci et, vestibulum felis. Praesent ut convallis quam.</p>
+						<a href="#">Learn More</a>
+					</div>
+				</div>
+			</section>
+		</main>
+		<section class="contact" id="JoinNow">
+			<div class="content">
+				<div class="title"><span>Sign Up</span></div>
+				<div class="contactMenu">
+					<div class="input1">
+						<div class="label1">Your Name</div>
+						<div class="input2">
+							<input type="text"
+								placeholder="Enter your Name here">
+						</div>
+						<div class="label1">
+							<label>Your Email</label>
+						</div>
+						<div class="input2">
+							<input type="text"
+								placeholder="Enter your Email here">
+						</div>
+						<div class="label1">
+							<label>Your Password</label>
+						</div>
+						<div class="input2">
+							<input type="text"
+								placeholder="Enter your Password here">
+						</div>
+						<div class="button">
+							<button>Sign Up</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+		<p>© 2023 PHN Community. All Rights Reserved.</p>
+		</footer>
+		
+</body>
+</html>
