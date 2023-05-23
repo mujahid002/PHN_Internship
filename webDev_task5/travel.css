@@ -1,0 +1,345 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.header
+{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 30px;
+    text-align: center;
+    color: #fff;
+}
+.header img
+{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6),url(images/banner2.jpg));
+    width: 150px;
+    float: left;
+    cursor: pointer;
+}
+.header img:hover
+{
+    width: 200px;
+
+}
+
+.login-btn
+{
+    width: 100px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    float: right;
+    transition: 0.5s;
+}
+.login-btn:hover
+{
+    background-color:#00ff7e;
+}
+.header h1
+{
+    padding-top: 200px;
+    padding-bottom: 0;
+    font-size: 55px;
+    transition: 0.5s;
+}
+.header h1
+{
+    margin: 18px 0;
+    transition: 0.5s;
+}
+.header p
+{
+    font-size: small;
+    transition: 0.5s;
+}
+.header h1:hover, .header p:hover
+{
+    color: #00ff7e;
+}
+.input-group
+{
+    width: 90%;
+    max-width: 500px;
+    border-radius: 30px;
+    background: #fff;
+    margin: auto;
+    padding: 3px;
+    padding-top: 1px;
+}
+.form-cont
+{
+    border: 0 !important;
+    border-radius: 30px!important;
+    margin: 0px !important;
+    padding-top: 0px !important;
+    padding-right: 166px;
+    box-shadow: none !important;
+    text-align: center;
+}
+.input-group-text
+{
+    width: 100px;
+    background-image: linear-gradient(#00ff7e,#1f3d90);
+    border:0 !important;
+    color: #fff !important;
+    padding:0 25px !important;
+    border-radius: 30px !important;
+    box-shadow: none;   
+}
+.features
+{
+    padding: 100px 0;
+    background: #c2dfff;
+
+}
+h1
+{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.feature-img img
+{
+    width: 100%;
+}
+.price
+{
+    width: 80px;
+    height: 80px;
+    background: #fF5722;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 50%;
+    padding: 0px;
+    box-shadow:0 0 10px 1px rgba(37, 73, 214, 0.18);
+    position: absolute;
+    left: 20px;
+    bottom: -40px;
+}
+.price p
+{
+    padding-top: 25px;
+    padding-right: 2px;
+    padding-left: 5px;
+}
+.feature-img
+{
+    position: relative;
+    cursor: pointer;
+}   
+.rating
+{
+    padding: 3px;
+    float: right;
+    background: #fff;
+    bottom: -1px;
+    right: 0;
+    position: absolute;
+}
+
+.rating .fa-star,.fa-star-half-alt
+{
+    font-size: 15px;
+    color: #ff5722;
+}
+.feature-details
+{
+    padding: 30px;
+    text-align: justify;
+  
+}
+.feature-details h4
+{
+    font-weight: 600;
+    margin-top: 18px;   
+}
+.feature-details p
+{
+    font-size: small;
+}
+.fa-map-marker-alt,.fa-sun,.fa-moon
+{
+    color: #fF5722;
+    padding-right: 15px;
+    font-size: 15px;
+    padding-right: 5px; 
+    cursor: pointer;
+}
+.feature-box
+{
+    box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+    margin-bottom: 30px;
+    transition: 1s;
+}
+.feature-box:hover
+{
+    transform: scale(1.1);
+}
+.gallery
+{
+    padding: 100px 0;
+    background: #abcbeb;
+}
+.gallery-box img
+{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.gallery-box img:hover
+{
+    transform: scale(1.1);
+}
+.gallery-box h4
+{
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    text-shadow: -2px 2px 2px #000;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.gallery-box
+{
+    position: relative;
+    margin-bottom: 30px;
+}
+.banner
+{
+    height: 80vh;
+    background-image: url(images/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 14%;
+}
+.banner-highlights
+{
+    padding: 70px 0;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    color: #fff;
+}
+.booking-btn
+{
+    width: 120px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.booking-btn:hover
+{
+    background-color:#00ff7e;
+}
+.users-feedback
+{
+    padding: 100px 0;
+    background: #abcbeb;
+}
+.user-review
+{
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0,0,100,0.2);    
+    padding-bottom: 50px;
+}
+.user-review p
+{
+    padding: 100px 10px 10px 10px;
+}
+.users-feedback img
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; 
+    position: relative;
+    margin: -30px 0 0 40%;
+}
+.p1::before
+{
+    content:'\201d';
+    display: block;
+    position: absolute;
+    font-size: 100px;
+    color: #6495ed;
+    font-family: sans-serif;
+    top: 457vh;
+    left: 20%;
+}
+.p2::before
+{
+    content:'\201d';
+    display: block;
+    position: absolute;
+    font-size: 100px;
+    color: #6495ed;
+    font-family: sans-serif;
+    top: 457vh;
+    left: 48%;
+}
+.p3::before
+{
+    content:'\201d';
+    display: block;
+    position: absolute;
+    font-size: 100px;
+    color: #6495ed;
+    font-family: sans-serif;
+    top: 457vh;
+    left: 76%;
+}
+.footer
+{
+    padding: 100px 20px;
+    background-image: linear-gradient(#2d557d, #9610fb);
+    color: #fff;
+}
+.footer-logo
+{
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer h4
+{
+    text-align: left;
+    margin-top: 9px;
+    margin-bottom: 25px;
+}
+.footer p
+{
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 35px;
+}
+.footer .fab, .fa, .fas, .far
+{
+    padding-right: 20px;
+    font-size: 15px;
+}
+.footer hr
+{
+    margin-top: 10px;
+    background: #efefef;
+}     
+.footer .copyright
+{
+    text-align: center;
+    justify-content: center;
+}
