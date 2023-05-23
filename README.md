@@ -19,4 +19,9 @@ Task_4 : Responsive Community Landing_page
 ![Screenshot 1](https://github.com/mujahid002/PHN_Internship_Tasks/assets/109784578/c3e315d9-6c80-43bc-9645-1d39ec2a3a59)
 ![Screenshot 5](https://github.com/mujahid002/PHN_Internship_Tasks/assets/109784578/79bcbdb2-ac7b-498c-8a9f-89766802108a)
 
+Task_5 : Responsive Travel Booking Website
+![Screenshot (48)](https://github.com/mujahid002/PHN_Internship/assets/109784578/081f1a25-9e84-4fde-bea8-021ab2ae4be2)
+![Screenshot (49)](https://github.com/mujahid002/PHN_Internship/assets/109784578/9262081e-5e20-47e0-bf0b-91aacbed221a)
+![Screenshot (52)](https://github.com/mujahid002/PHN_Internship/assets/109784578/a0eb058d-4fd1-47d8-b76b-bcc6f9cbe7fd)
+
 
